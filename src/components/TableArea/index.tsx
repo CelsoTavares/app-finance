@@ -40,7 +40,7 @@ const TableArea = ({ filterList }: Props) => {
           </C.Titulo>
 
           <C.Value color={categories[item.category].expense ? "red" : "green"}>
-            <span>Valor: </span> {item.value}
+            <span>Valor: </span>R$ {item.value}
             <p onClick={() => Del(list, item.title)}>
               <RiDeleteBin2Fill />
             </p>
