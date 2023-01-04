@@ -35,7 +35,7 @@ const InputArea = () => {
     const check = list.find((e) => e.title === itens.title);
 
     if (check) {
-      alert("Título já existe!");
+      alert("Esse nome já existe!");
       return;
     }
     if (isNaN(new Date(inputDate).getTime())) {
@@ -90,7 +90,7 @@ const InputArea = () => {
         </C.Select>
       </C.InputLabel>
       <C.InputLabel>
-        <C.InputTitle>Título:</C.InputTitle>
+        <C.InputTitle>Nome:</C.InputTitle>
         <C.Input
           type="text"
           value={inputTitle}
