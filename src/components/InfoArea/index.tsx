@@ -32,10 +32,10 @@ const InfoArea = ({ currentMonth, onMonthChange, income, expense }: Props) => {
         <C.MonthArrow onClick={handleNextMonth}>➡️</C.MonthArrow>
       </C.MonthArea>
       <C.ResumeArea>
-        <Resume title="Receitas" value={income} />
-        <Resume title="Despesas" value={expense} />
+        <Resume title="Saldo" value={income} />
+        <Resume title="Despesa" value={expense} />
         <Resume
-          title="Balanço"
+          title="Resultado"
           value={income - expense}
           color={income - expense < 0 ? "red" : "green"}
         />
