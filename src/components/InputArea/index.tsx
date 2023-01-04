@@ -90,7 +90,7 @@ const InputArea = () => {
         </C.Select>
       </C.InputLabel>
       <C.InputLabel>
-        <C.InputTitle>Nome:</C.InputTitle>
+        <C.InputTitle>Título:</C.InputTitle>
         <C.Input
           type="text"
           value={inputTitle}
